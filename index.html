@@ -106,7 +106,7 @@
             Spotify and login via Google to access your files anywhere:</p>
         <div class="btns-box">
             <div class="btn-warn">
-                <button class="button" id="spotify-try"><i class="fab fa-spotify"></i>Connect to Spotify</button>
+                <button class="button" id="spotify-try" onclick="authorize()"><i class="fab fa-spotify"></i>Connect to Spotify</button>
                 <span id="spotify-status" class="warn">Status: Done</span>
             </div>
             <div class="btn-warn">
@@ -192,13 +192,13 @@ function getUserProfile() {
     });
 }
 
-const myButton = document.querySelector('#spotify-try');
+// const myButton = document.querySelector('#spotify-try');
 
-function handleClick() {
-  console.log('Button clicked');
-}
+// function handleClick() {
+//   console.log('Button clicked');
+// }
 
-myButton.addEventListener('click', handleClick);
+// myButton.addEventListener('click', handleClick);
 </script>
 
 </html>
